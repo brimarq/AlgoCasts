@@ -1,14 +1,17 @@
 {
-  "name": "dev",
+  "name": "exercises",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest $1 --watch"
   },
   "jest": {
     "testEnvironment": "node"
   },
   "author": "stephen grider",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^27.0.6"
+  }
 }

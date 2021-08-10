@@ -1,0 +1,10 @@
+{
+  "private": true,
+  "workspaces": [
+    "exercises",
+    "completed_exercises"
+  ],
+  "scripts": {
+    "test": "yarn workspace exercises jest $1 --watch"
+  }
+}

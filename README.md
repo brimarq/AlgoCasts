@@ -1,3 +1,17 @@
 # AlgoCasts
 
 Companion repo to [The Coding Inteview Bootcamp: Algorithms + Data Structures](https://www.udemy.com/course/coding-interview-bootcamp-algorithms-and-data-structure/)
+
+## Running tests:
+
+To run tests for an exercise in `exercises/$DIR`, run the following command from the project root:
+
+```shell
+yarn workspace exercises test $DIR
+```
+
+or, simply:
+
+```
+yarn test $DIR
+```
